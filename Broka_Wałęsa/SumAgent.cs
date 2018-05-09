@@ -18,6 +18,7 @@ namespace Broka_Wałęsa
         public SumAgent(int id, List<int> liczby) : base(id)
         {
             Ile = liczby.Count;
+            Console.WriteLine("Agent o ID: " + Id + " ma " + Ile + " liczb do dodania");
             Counter = 0;
             Sum = 0;
             Liczby = liczby;

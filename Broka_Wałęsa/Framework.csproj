@@ -47,13 +47,16 @@
     <Compile Include="CountingAgent.cs" />
     <Compile Include="IRunable.cs" />
     <Compile Include="MasterSumAgent.cs" />
+    <Compile Include="MasterWordSumAgent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SineGenerationgAgent.cs" />
     <Compile Include="SumAgent.cs" />
+    <Compile Include="WordSumAgent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

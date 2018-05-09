@@ -23,7 +23,7 @@ namespace Broka_Wałęsa
         public Agent( int id)
         {
             HasFinished = false;
-            Frequency = 100.0F;
+            Frequency = 1000.0F;
             Id = id;
         }
 
@@ -33,10 +33,10 @@ namespace Broka_Wałęsa
             while(!HasFinished)
             {
                 Update();
-                if (HasFinished)
-                    Console.WriteLine("agent o numerze ID: " + Id + " skończył pracę");
+                Thread.Sleep((int)(1000 / frequency));
                 yield return 0.0F;
             }
+            Console.WriteLine("agent o numerze ID: " + Id + " skończył pracę");
             yield break;
         }
 

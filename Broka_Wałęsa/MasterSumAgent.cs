@@ -24,7 +24,7 @@ namespace Broka_Wałęsa
             if(Counter<ListaAgentow.Count)
             {
                 Sum += ListaAgentow[Counter].Sum;
-                Console.WriteLine("cygan: " + Counter);
+                //Console.WriteLine("cygan: " + Counter);
                 Counter++;
             }
             else
