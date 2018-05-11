@@ -16,7 +16,6 @@ namespace Broka_Wałęsa
         public int IleSlow { get; set; }
         public int SlowaC { get; set; }
 
-
         public MasterWordSumAgent(int id, List<WordSumAgent> liczacySlawa) : base(id)
         {
             Podwladni = liczacySlawa;

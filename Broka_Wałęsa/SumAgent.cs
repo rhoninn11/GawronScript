@@ -13,8 +13,6 @@ namespace Broka_Wałęsa
         public int Sum { get; set; }
         public List<int> Liczby { get; set; }
 
-        
-
         public SumAgent(int id, List<int> liczby) : base(id)
         {
             Ile = liczby.Count;
